@@ -1,0 +1,38 @@
+{
+  "name": "live-server-https",
+  "version": "0.0.1",
+  "description": "tls.createServer options with SSL/TSL certificate for quick https setup for live-server",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pirtleshell/live-server-https.git"
+  },
+  "keywords": [
+    "live-server",
+    "serve",
+    "localhost",
+    "https",
+    "ssl",
+    "tls",
+    "certifcate",
+    "createServer",
+    "development",
+    "server"
+  ],
+  "author": "Robert Pirtle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pirtleshell/live-server-https/issues"
+  },
+  "homepage": "https://github.com/pirtleshell/live-server-https#readme",
+  "xo": {
+    "esnext": true,
+    "space": true
+  },
+  "devDependencies": {
+    "xo": "^0.17.1"
+  }
+}
