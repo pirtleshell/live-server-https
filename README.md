@@ -31,7 +31,7 @@ server.listen(8000, () => {
 
 ## Usage with `live-server`
 
-If using `live-server`s CLI, I'd suggest installing it globally:
+[`live-server`](https://github.com/tapio/live-server) expects a path to the module. So if you want to use the same instance everywhere, I'd suggest installing it globally:
 
 ```sh
 npm install --global live-server-https
@@ -43,7 +43,9 @@ Then pass its directory to `live-server` under the `--https` flag:
 live-server --https=/usr/local/lib/node_modules/live-server-https
 ```
 
-If the above doesn't work, find the proper directory by running `npm -g ls live-server-https` and adding `node_modules` to the first returned .
+If the above doesn't work, find the proper directory by running `npm -g ls live-server-https` and adding `node_modules` to the result.
+
+You can also just install it locally and pass the directory path as `--https=./node_modules/live-server-https`.
 
 Now your live-server instance works with `https`!
 
